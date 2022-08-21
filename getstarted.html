@@ -8,6 +8,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>TEST</h1>
+    <div class="header">
+        <a href="index.html"><img src="assets/logo.png"></a>
+         <div class="menu">
+             <label class="burger" for="menuchk">&#9776;</label>
+             <input type="checkbox" id="menuchk">
+             <nav>
+                 <a href="#">Courses</a>
+                 <a href="#">About Us</a>
+                 <a id="getStarted" href="getstarted.html">Get Started</a>
+             </nav>
+         </div>
+     </div>
+
+    <div class="getStartedCard">
+        <form>
+            <label for="firstName"><h3>Name:</h3></label>
+            <input type="text" id="firstName">
+
+            <label for="lastName"><h3>Last Name:</h3></label>
+            <input type="text" id="lastName">
+
+            <label for="email"><h3>Email:</h3></label>
+            <input type="email" id="email">
+
+            <label for="password"><h3>Password:</h3></label>
+            <input type="password" id="password">
+
+            <p>SELECTED COURSE</p>
+
+            <label for="notes"><h3>Notes:</h3></label>
+            <textarea id="notes"></textarea>
+
+            <div>
+            <input type="submit">
+            <input type="reset">
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        Sweet Berries
+    </div>
 </body>
 </html>
