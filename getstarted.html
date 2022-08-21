@@ -23,24 +23,37 @@
 
     <div class="getStartedCard">
         <form>
-            <label for="firstName"><h3>Name:</h3></label>
+            <label for="firstName"><h4>Name:</h4></label>
             <input type="text" id="firstName">
 
-            <label for="lastName"><h3>Last Name:</h3></label>
+            <label for="lastName"><h4>Last Name:</h4></label>
             <input type="text" id="lastName">
+            
 
-            <label for="email"><h3>Email:</h3></label>
+            <label for="email"><h4>Email:</h4></label>
             <input type="email" id="email">
 
-            <label for="password"><h3>Password:</h3></label>
+            <label for="password"><h4>Password:</h4></label>
             <input type="password" id="password">
 
-            <p>SELECTED COURSE</p>
+            <label for="course"><h4>Select Course:</h4></label>
+            <input list="course" name="course">
+            <datalist id="course">
+                <option value="Cooking Essentials">
+                <option value="Chef Skills">
+                <option value="Nutrition in Cooking">
+                <option value="Plant-Based Cooking">
+                <option value="Teen's Kitchen">
+            </datalist>
 
-            <label for="notes"><h3>Notes:</h3></label>
+
+
+
+
+            <label for="notes"><h4>Notes:</h4></label>
             <textarea id="notes"></textarea>
 
-            <div>
+            <div class="formButtons">
             <input type="submit">
             <input type="reset">
             </div>

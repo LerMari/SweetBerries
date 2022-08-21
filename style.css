@@ -43,6 +43,7 @@
   nav a{
       padding: 20px;
   }
+
   a{
       text-decoration: none;
       color: #FF4C4C;
@@ -135,7 +136,6 @@
   }
 
   .getStartedCard form {
-    background-color: lightgray;
     width: 80%;
     height: 95%;
     display: flex;
@@ -144,11 +144,28 @@
   }
   
   .getStartedCard input{
+    box-shadow: 2px 2px 3px lightgray;
     width: 30%;
+    border: solid lightgray 1px;
+    height: 30px;
   }
 
   textarea {
     width: 50%;
+    box-shadow: 2px 2px 3px lightgray;
+    border: solid lightgray 1px;
+  }
+
+  .formButtons input {
+      background-color: #A94E97;
+      border-radius: 18px;
+      border: none;
+      color: white;
+      padding: 19px;
+      margin: 15px;
+      font-weight: 700;
+      width: 150px;
+      text-align: center;
   }
   
   @media(max-width: 400px) {
