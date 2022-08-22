@@ -115,6 +115,7 @@
   
   .footer {
       color: white;
+      height: 50px;
       background-color: #FF4C4C;
       grid-column: span 3;
       padding-top: 16px;
