@@ -26,7 +26,6 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 150px 1fr 1fr 1fr 50px;
-      
   }
   
   .header {
@@ -125,7 +124,7 @@
   }
 
   .getStartedCard {
-    height: 600px;
+    height: 700px;
     width: 80%;
     box-shadow: 4px 8px 8px lightgray;
     border-radius: 15px;
@@ -142,30 +141,38 @@
     flex-direction: column;
     justify-content: space-around;
   }
+
+  .getStartedCard label {
+    margin-bottom: 10px;
+  }
   
   .getStartedCard input{
     box-shadow: 2px 2px 3px lightgray;
-    width: 30%;
+    width: 40%;
     border: solid lightgray 1px;
-    height: 30px;
+    height: 36px;
+    border-radius: 10px;
+    margin-bottom: 28px;
   }
 
   textarea {
-    width: 50%;
+    width: 60%;
+    height: 100px;
     box-shadow: 2px 2px 3px lightgray;
     border: solid lightgray 1px;
+    border-radius: 10px;
   }
 
   .formButtons input {
       background-color: #A94E97;
-      border-radius: 18px;
+      border-radius: 10px;
       border: none;
       color: white;
-      padding: 19px;
+      padding-bottom: 2px;
       margin: 15px;
       font-weight: 700;
       width: 150px;
-      text-align: center;
+      height: 40px;
   }
   
   @media(max-width: 400px) {
